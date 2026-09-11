@@ -2,7 +2,7 @@
 name: scheduled task
 on:
   schedule:
-    - cron: 0 17 * * 5
+    - cron: 30 15 * * 5
 jobs:
   hello_world:
     runs-on: ubuntu-latest
